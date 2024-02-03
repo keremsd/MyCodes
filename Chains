@@ -1,0 +1,51 @@
+
+import java.util.Scanner;
+ 
+ public class kerem10
+ {
+  
+  public static void main(String[] args)
+  {
+   
+   Scanner scan = new Scanner(System.in);
+   
+   System.out.println("Satır: ");
+   int sat = scan.nextInt();
+   System.out.println("Sütun: ");
+   int sut = scan.nextInt();
+   
+   for(int i=1; i<=sut; i++)
+   {
+    for(int j=1; j<=sat; j++)
+    {
+     System.out.print(" () ");
+    }
+     System.out.println("");
+    for(int k=1; k<=sat; k++)
+    {
+     
+     System.out.print("(  )");
+    }
+     System.out.println("");
+    for(int m=1; m<=sat; m++)
+    {
+     System.out.print(" () ");
+    }
+    System.out.println("\n\n");
+   }
+   
+   
+  }
+ 
+ } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
